@@ -9,6 +9,8 @@ import java.time.Month;
 import java.util.Arrays;
 import java.util.List;
 
+import static ru.javawebinar.topjava.util.TimeUtil.isBetweenHalfOpen;
+
 public class MealsUtil {
     public static void main(String[] args) {
         List<Meal> meals = Arrays.asList(
